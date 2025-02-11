@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const TodoForm = ({addTodo}) =>{
+const TodoForm = ({ addTodo }) =>{
     const [task, setTask] = useState("");
 
     const handlesubmit=(e)=>{
